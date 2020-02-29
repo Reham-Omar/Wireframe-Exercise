@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+}
+header{
+  
+    margin: auto;
+    background-color: rgb(48, 42, 42);
+    width: 100%;
+    display: inline-block;
+}
+header section{
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+header section img{
+    float: left;
+    width: 200px;
+    height: 70px;
+    
+}
+header li {
+    display: inline-flex;
+    clear: both;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px 25px
+}
+header ul a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 28px
+}
+main{
+    width: 960px;
+    margin: auto;
+}
+#first {
+    margin: 20px auto;
+    clear: both;
+    display: block;
+    
+    width: 100%;
+}
+section {
+    display: flex;
+    clear: both;
+}
+#second{
+    width: 300px;
+    margin: 0px auto;
+}
+#third{
+    margin: 0px auto 0px 0px;
+}
+#fourth{
+    margin: 0px 0px 0px auto;
+}
+#fifth{
+    margin: 20px auto;
+}
+#fifth{
+    float: left;
+    width: 50%;
+    height: 240px;
+    margin: 0px 20px 0px 0px;
+}
+main article {
+    overflow: scroll;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 192px;
+}
+main article p{
+    font-style: italic;
+    font-size: 15px;
+}
+main section div p{
+    display: block;
+    height: 240px;
+    margin: 0px;
+}
+h2{
+    font-size: 20px;
+    padding: 10px 30px;
+
+}
+main section div p{
+    background-color: rgb(253, 252, 252);
+    padding: 10px 30px;
+    color: rgb(8, 8, 8);
+    border-radius: 3px;
+    margin: 10px 0;
+    
+
+}
+footer{
+    height: 100px;
+    background-color: grey;
+}
