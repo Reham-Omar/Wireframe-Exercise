@@ -2,11 +2,10 @@ body{
     width: 100%;
 }
 header{
-  
-    margin: auto;
-    background-color: rgb(48, 42, 42);
-    width: 100%;
     display: inline-block;
+    margin: auto;
+    background-color: rgb(2, 2, 2);
+    width: 100%;
 }
 header section{
     width: 960px;
@@ -14,87 +13,100 @@ header section{
     padding: 10px;
 }
 header section img{
-    float: left;
     width: 200px;
     height: 70px;
     
+    float: left;
+    
 }
 header li {
+    text-align: center;
     display: inline-flex;
     clear: both;
-    vertical-align: middle;
-    text-align: center;
-    margin: 0px 25px
+    margin: 0px 20px;
 }
-header ul a{
+header ul li a{
     color: #ffffff;
     text-decoration: none;
-    padding: 28px
+    padding: 28px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     width: 960px;
     margin: auto;
 }
-#first {
+main img {
     margin: 20px auto;
-    clear: both;
     display: block;
-    
     width: 100%;
+    clear: both;
 }
 section {
-    display: flex;
     clear: both;
+    display: flex;
+}
+#first{
+    width: 300px;
+    height: 375px;
+    margin: 0px auto;
+    padding-right: 26px;
 }
 #second{
     width: 300px;
-    margin: 0px auto;
+    height: 375px;
+    margin: 0px auto 0px 0px;
+    padding-right: 26px;
+
 }
 #third{
-    margin: 0px auto 0px 0px;
-}
-#fourth{
+    width: 300px;
+    height: 375px;
     margin: 0px 0px 0px auto;
 }
-#fifth{
-    margin: 20px auto;
-}
-#fifth{
+
+#fourth{
+    width: 480px;
+    height: 400px;
     float: left;
     width: 50%;
-    height: 240px;
-    margin: 0px 20px 0px 0px;
+    margin: 20px 20px 0px 0px;
 }
 main article {
     overflow: scroll;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    height: 192px;
+    height: 375px;
 }
 main article p{
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-}
-main section div p{
     display: block;
-    height: 240px;
-    margin: 0px;
+    height: 50px;
+
 }
 h2{
     font-size: 20px;
-    padding: 10px 30px;
-
+    padding: 22px 30px;
 }
-main section div p{
-    background-color: rgb(253, 252, 252);
+#call{   
+     background-color: rgb(2, 2, 2);
     padding: 10px 30px;
-    color: rgb(8, 8, 8);
+    color: rgb(253, 251, 251);
     border-radius: 3px;
     margin: 10px 0;
+    width: 25%;
     
 
 }
+#firstParagraph{
+    background-color: rgb(248, 245, 245);
+    padding: 10px 30px;
+    color: rgb(3, 3, 3);
+    border-radius: 3px;
+    margin: 10px 0;
+}
 footer{
+    margin-top: 27px;
     height: 100px;
-    background-color: grey;
+    background-color: rgb(5, 5, 5);
 }
