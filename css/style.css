@@ -45,35 +45,24 @@ section {
     clear: both;
     display: flex;
 }
-#first{
+main section img{
     width: 300px;
     height: 375px;
     margin: 0px auto;
-    padding-right: 26px;
-}
-#second{
-    width: 300px;
-    height: 375px;
-    margin: 0px auto 0px 0px;
-    padding-right: 26px;
-
-}
-#third{
-    width: 300px;
-    height: 375px;
-    margin: 0px 0px 0px auto;
+    padding-right: 30px;
 }
 
-#fourth{
+main div img{
     width: 480px;
     height: 400px;
     float: left;
-    width: 50%;
-    margin: 20px 20px 0px 0px;
+    margin: 24px 20px 0px 0px;
 }
+
 main article {
     overflow: scroll;
     height: 375px;
+    margin: 24px 20px 0px 0px;
 }
 
 h2{
@@ -81,20 +70,19 @@ h2{
     padding: 22px 30px;
     font-weight: 650;
 }
-#call{   
+h4{   
      background-color: rgb(2, 2, 2);
-    padding: 10px 30px;
+     padding: 12px 30px;
     color: rgb(253, 251, 251);
     border-radius: 3px;
-    margin: 10px 0;
-    width: 25%;
-   }
+    margin: 10px 292px; 
+  }
 
-#call :hover{
+h4 :hover{
     color: rgb(77, 35, 35);
 }
 
-#firstParagraph{
+main article p{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(248, 245, 245);
     font-size: 18px;
@@ -107,9 +95,10 @@ h2{
     font-weight: 500;
 
 
+
 }
 footer{
-    margin-top: 27px;
+    margin-top: 68px;
     height: 100px;
     background-color: rgb(5, 5, 5);
 }
