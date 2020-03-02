@@ -49,7 +49,7 @@ main section img{
     width: 300px;
     height: 375px;
     margin: 0px auto;
-    padding-right: 30px;
+    padding-right: 31px;
 }
 
 main div img{
@@ -63,6 +63,7 @@ main article {
     overflow: scroll;
     height: 375px;
     margin: 24px 20px 0px 0px;
+    width: 458px;
 }
 
 h2{
@@ -75,7 +76,7 @@ h4{
      padding: 12px 30px;
     color: rgb(253, 251, 251);
     border-radius: 3px;
-    margin: 9px 292px;
+    margin: 8px 292px;
   }
 
 h4 :hover{
@@ -89,7 +90,7 @@ main article p{
     padding: 10px 30px;
     color: rgb(3, 3, 3);
     border-radius: 3px;
-    margin: 10px 0;
+    margin: 9px 0;
     display: block;
     height: 50px;
     font-weight: 500;
